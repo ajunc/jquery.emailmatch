@@ -1,0 +1,74 @@
+﻿<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> 邮箱自动匹配 </title>
+		<meta name="Author" content="">
+		<meta name="Keywords" content="">
+		<meta name="Description" content="">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+		<script src="jquery.emailmatch.js?abc"></script>
+		<link href="email.css" rel="stylesheet" type="text/css">
+	</head>
+
+	<body><form>
+		<h1>输入电子邮件自动匹配<input name="" type="reset"></h1>
+		<blockquote>
+			可自定义备选后缀,光标自动定位,备选框位置,自动过滤备选邮箱. 输入 不匹配的邮箱后缀 列为第一项, 回车自动选择 高亮邮箱. 上下键可选择.
+		</blockquote>
+		<h5>默认,新浪 lofter</h5>
+		展示1：<input type="text" id="text1" class="mail" value="" size="28" style="color: rgb(153, 153, 153);">
+		<pre>$("#text1").emailMatch();</pre>
+		<h5>position定位在右边,aEmail备选后缀,自定义提示</h5>
+		展示2：<input type="text" id="text2" class="mail" value="" size="28" style="color: rgb(153, 153, 153);">
+		<pre>$("#text2").emailMatch({position:"right",emailTip:"输入您的邮箱哦~亲",aEmail:["qq.com","xiami.com"]});</pre>
+		<h5>position定位在右边,emailRemember不过滤邮箱</h5>
+		展示3：<input type="text" id="text3" class="mail" value="" size="28" style="color: rgb(153, 153, 153);">
+		<pre>$("#text3").emailMatch({position:"right",emailRemember:false});</pre>
+		<h5>position定位在左边,emailRemember不过滤邮箱,autoCursor开启自动光标</h5>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;展示4：<input type="text" id="text4" class="mail" value="" size="28" style="color: rgb(153, 153, 153);">
+		<pre>$("#text4").emailMatch({position:"left",emailRemember:false,"autoCursor":true});</pre>
+		<script>
+			$("#text1").emailMatch();
+			$("#text2").emailMatch({position:"right",emailTip:"输入您的邮箱哦~亲",aEmail:["qq.com","xiami.com"]});
+			$("#text3").emailMatch({position:"right",emailRemember:false});
+			$("#text4").emailMatch({position:"left",emailRemember:false,"autoCursor":true});
+			//alert(["qq.com","gmail.com","126.com","163.com","hotmail.com","yahoo.com","yahoo.com.cn","live.com","sohu.com","sina.com"].indexOf("sina.com"))
+		</script>
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+		<br />
+	</form>
+	</body>
+</html>
